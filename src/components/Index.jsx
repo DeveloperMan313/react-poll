@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
+
 class Index extends Component {
   render() {
     return (
@@ -8,7 +9,7 @@ class Index extends Component {
         <h1>Main page</h1>
         <Link to="/create-poll">Create poll</Link>
         <br />
-        <Link to="/about">About</Link>
+          <Link to="/about">YOU SUSSY BAKA</Link>
       </React.Fragment>
     );
   }

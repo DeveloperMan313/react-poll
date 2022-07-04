@@ -1,0 +1,24 @@
+body {
+  background-color: rgba(50, 50, 50, 1);
+  color: rgba(225, 225, 225, 1);
+  text-align: center;
+  margin-top: 45px;
+  text-decoration: none;
+}
+p {
+  color: green;
+  cursor: pointer;
+}
+ul {
+  color: rgba(144, 24, 100, 1);
+  cursor: pointer;
+  list-style-type: none;
+  padding-left: 0;
+}
+footer {
+  margin-top: 20em;
+}
+footer p {
+  cursor: text;
+  color: rgba(225, 225, 225, 1);
+}

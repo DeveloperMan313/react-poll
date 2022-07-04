@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import EditOptions from "./editOptions";
 import EditText from "./editText";
+import "../css/create-poll.css";
 
 class CreatePoll extends Component {
   state = {

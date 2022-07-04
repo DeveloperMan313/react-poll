@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import NavBar from "./navbar";
+import "../css/create-poll.css";
 
 class About extends Component {
   render() {
