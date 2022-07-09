@@ -1,0 +1,46 @@
+@use "_colors";
+@forward "_colors";
+
+:root {
+  font-size: 16px;
+}
+
+p,
+input {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+#root {
+  display: contents;
+}
+
+.page-container {
+  display: contents;
+}
+
+body {
+  background-color: colors.$dark_gray;
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+footer {
+  margin-top: 20em;
+  p {
+    text-align: center;
+    margin-bottom: 2em;
+  }
+}

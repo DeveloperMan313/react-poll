@@ -1,0 +1,202 @@
+:root {
+  font-size: 16px;
+}
+
+p,
+input {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+#root {
+  display: contents;
+}
+
+.page-container {
+  display: contents;
+}
+
+body {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+footer {
+  margin-top: 20em;
+}
+footer p {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+#page-create-poll {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+#page-create-poll input {
+  text-align: center;
+}
+#page-create-poll .btn-add {
+  color: white;
+  background-color: rgb(0, 216, 0);
+  cursor: pointer;
+  border-radius: 1em;
+  width: fit-content;
+  padding: 0 1em;
+  line-height: 1.5em;
+}
+#page-create-poll .btn-remove {
+  color: white;
+  background-color: rgb(255, 0, 93);
+  cursor: pointer;
+  border-radius: 1em;
+  width: fit-content;
+  padding: 0 1em;
+  line-height: 1.5em;
+}
+#page-create-poll #contents {
+  margin-top: 45px;
+  width: 20em;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+#page-create-poll #contents > .btn-add {
+  margin-top: 1em;
+  line-height: 2em;
+}
+#page-create-poll #entry-list {
+  margin-top: 2em;
+  width: 25em;
+  background-color: rgb(60, 60, 60);
+  border-radius: 1em;
+}
+#page-create-poll .entry {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-bottom: 1.5em;
+}
+#page-create-poll .entry > .btn-remove {
+  margin-top: 1em;
+}
+#page-create-poll .options-singular,
+#page-create-poll .options-multiple {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+#page-create-poll .options-singular ul,
+#page-create-poll .options-multiple ul {
+  cursor: pointer;
+  list-style-type: none;
+}
+#page-create-poll .options-singular input,
+#page-create-poll .options-multiple input {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+#page-create-poll .options-singular li,
+#page-create-poll .options-multiple li {
+  height: 2em;
+  margin-bottom: 0.7em;
+  display: flex;
+}
+#page-create-poll .options-singular li input,
+#page-create-poll .options-multiple li input {
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+}
+#page-create-poll .options-singular .btn-remove,
+#page-create-poll .options-multiple .btn-remove {
+  display: block;
+  line-height: 2em;
+  border-top-left-radius: 0.1em;
+  border-bottom-left-radius: 0.1em;
+  margin-left: 0.3em;
+}
+#page-create-poll .options-singular h2:first-child,
+#page-create-poll .options-multiple h2:first-child {
+  text-align: center;
+  margin: 0.5em 0;
+}
+#page-create-poll .text-input input {
+  font-size: 1.2em;
+}
+#page-create-poll .text-input h2 {
+  margin: 0.5em 0;
+  text-align: center;
+}
+#page-create-poll #add-entry-dropdown {
+  width: 10em;
+  text-align: center;
+  margin-top: 1em;
+  background-color: rgb(60, 60, 60);
+  border-radius: 1em;
+}
+#page-create-poll #add-entry-dropdown li {
+  margin: 1em 0;
+  cursor: pointer;
+}
+#page-create-poll footer {
+  display: block;
+  margin-top: 15em;
+}
+#page-create-poll footer p {
+  text-align: center;
+  cursor: text;
+  margin-bottom: 1em;
+}
+
+#page-signup {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+#page-signup #contents {
+  background-color: rgb(60, 60, 60);
+  border-radius: 1em;
+  margin: 10em;
+  padding: 1em 2em;
+}
+#page-signup #contents > h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#page-signup #contents form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+#page-signup #contents form input {
+  text-align: center;
+  margin-bottom: 0.5em;
+  padding: 0.3em 1em;
+  border-radius: 1em;
+  border: none;
+}
+#page-signup #contents form button {
+  font-size: 1em;
+  padding: 0.2em 1em;
+  border-radius: 1em;
+  border: none;
+  background-color: rgb(0, 216, 0);
+  color: white;
+}
+
+/*# sourceMappingURL=combined.css.map */

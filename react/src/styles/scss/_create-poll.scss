@@ -1,0 +1,128 @@
+@use "_base";
+
+#page-create-poll {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  input {
+    text-align: center;
+  }
+
+  .btn-add {
+    color: white;
+    background-color: base.$green;
+    cursor: pointer;
+    border-radius: 1em;
+    width: fit-content;
+    padding: 0 1em;
+    line-height: 1.5em;
+  }
+
+  .btn-remove {
+    color: white;
+    background-color: base.$red;
+    cursor: pointer;
+    border-radius: 1em;
+    width: fit-content;
+    padding: 0 1em;
+    line-height: 1.5em;
+  }
+
+  #contents {
+    margin-top: 45px;
+    width: 20em;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    > .btn-add {
+      margin-top: 1em;
+      line-height: 2em;
+    }
+  }
+
+  #entry-list {
+    margin-top: 2em;
+    width: 25em;
+    background-color: base.$light-gray;
+    border-radius: 1em;
+  }
+
+  .entry {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-bottom: 1.5em;
+    > .btn-remove {
+      margin-top: 1em;
+    }
+  }
+
+  .options-singular,
+  .options-multiple {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    ul {
+      cursor: pointer;
+      list-style-type: none;
+    }
+    input {
+      font-size: 1.2em;
+      margin-bottom: 1em;
+    }
+    li {
+      height: 2em;
+      margin-bottom: 0.7em;
+      display: flex;
+      input {
+        display: block;
+        height: 100%;
+        box-sizing: border-box;
+      }
+    }
+    .btn-remove {
+      display: block;
+      line-height: 2em;
+      border-top-left-radius: 0.1em;
+      border-bottom-left-radius: 0.1em;
+      margin-left: 0.3em;
+    }
+    h2:first-child {
+      text-align: center;
+      margin: 0.5em 0;
+    }
+  }
+
+  .text-input {
+    input {
+      font-size: 1.2em;
+    }
+    h2 {
+      margin: 0.5em 0;
+      text-align: center;
+    }
+  }
+
+  #add-entry-dropdown {
+    width: 10em;
+    text-align: center;
+    margin-top: 1em;
+    background-color: base.$light-gray;
+    border-radius: 1em;
+    li {
+      margin: 1em 0;
+      cursor: pointer;
+    }
+  }
+
+  footer {
+    display: block;
+    margin-top: 15em;
+    p {
+      text-align: center;
+      cursor: text;
+      margin-bottom: 1em;
+    }
+  }
+}
